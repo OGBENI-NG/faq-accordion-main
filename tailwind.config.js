@@ -14,6 +14,7 @@ export default {
         'light-pink': 'hsl(275, 100%, 97%)',
         'grayish-purple': 'hsl(292, 16%, 49%)',
         'dark-purple': 'hsl(292, 42%, 14%)',
+        'hover-color': '#AD28EB',
       },
       screens: {
         'sm': '320px', // Added custom breakpoint for 320px

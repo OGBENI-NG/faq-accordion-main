@@ -1,5 +1,4 @@
 import React, {useState, useCallback} from 'react'
-import faqData from '../../data'
 import Header from './Header'
 import Main from './Main'
 import bgPatternMb from "../assets/images/background-pattern-mobile.svg"
@@ -10,7 +9,7 @@ import minusIcon from "../assets/images/icon-minus.svg"
 
 export default function App() {
 
-  const [openIndex, setOpenIndex] = useState(null)
+  const [openIndex, setOpenIndex] = useState(0)
  
 
   const handleToggle = useCallback((index) => {
@@ -19,7 +18,7 @@ export default function App() {
 
   
   return (
-    <section className='bg-light-pink font-Work-Sans'>
+    <section className='bg-light-pink font-Work-Sans sm:pb-16'>
       <Header 
         bgPatternDkt={bgPatternDkt}
         bgPatternMb={bgPatternMb}
