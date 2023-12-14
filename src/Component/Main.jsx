@@ -25,8 +25,8 @@ export default function Main({plusIcon, minusIcon, starIcon, handleToggle, openI
           </div>
         </div>
         <div className={`overflow-hidden `}>
-          <div className={`transition-all  
-            ${openIndex === index ? "sm:h-[150px] md:h-[220px] opacity-[1] lg:h-[120px]" : "sm:h-0 w-full opacity-[0]"}`}
+          <div className={`transition-all sm:h-0
+            ${openIndex === index ? "sm:first:h-[170px] md:h-[220px] opacity-[1] lg:h-[120px]" : "sm:h-0 w-full opacity-[0]"}`}
           >
             <p className='font-normal w-full transition-all sm:text-base 
              text-grayish-purple md:text-[28px] md:leading-9 lg:text-base
